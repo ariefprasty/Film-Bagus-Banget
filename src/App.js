@@ -1,11 +1,16 @@
 import "./App.css";
 import NavigationBar from "./Component/NavBar";
-
+import Intro from "./Component/Intro";
+import "./Style/landingpage.css";
 function App() {
   return (
     <div>
-      <h1>Test</h1>
-      <NavigationBar />
+      {/* Intro start */}
+      <div className="myBG border">
+        <NavigationBar />
+        <Intro />
+      </div>
+      {/* Intro End */}
     </div>
   );
 }

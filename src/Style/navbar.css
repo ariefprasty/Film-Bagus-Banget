@@ -1,0 +1,13 @@
+.nav {
+  text-decoration: none;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-shadow: none;
+}
+
+.select {
+  text-decoration: none;
+  color: black;
+  text-decoration-style: none;
+}
